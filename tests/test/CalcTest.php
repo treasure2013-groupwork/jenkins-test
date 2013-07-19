@@ -12,4 +12,7 @@ class CalcTest extends PHPUnit_Framework_TestCase
     public function testcalc3(){
 	$this->assertEquals(3,calc(3));
     }
+    public function testcalc4(){
+	$this->assertEquals(4,calc(4));
+    }
 }
